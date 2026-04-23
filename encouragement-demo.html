@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <!--
+    =============================================================================
+    ENCOURAGEMENT MESSAGE DEMO
+    =============================================================================
+    
+    A live demo/tool for previewing and testing encouragement messages.
+    Loads message templates from JSON and builds final messages using
+    encouragement-message-helper.js.
+    
+    USAGE:
+      1. Serve this file from a local server (required for fetch):
+         - npx serve .
+         - python -m http.server 8000
+         - VS Code Live Server extension
+      2. Open http://localhost:[port]/encouragement-demo.html
+      3. Edit Name, Phone, or Event to see the generated message update live.
+    
+    FILES:
+      - encouragement-demo.html     (this file)
+      - encouragement-message-helper.js  (core helper library)
+      - encouragement-messages.json     (message template catalog)
+    
+    =============================================================================
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encouragement Message Demo</title>
+    <style>
+      :root {
+        --bg: #f5f7fb;
+        --card: #ffffff;
+        --ink: #172033;
+        --muted: #5b6577;
+        --line: #d8dfeb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      .page {
+        max-width: 920px;
+        margin: 40px auto;
+        padding: 24px;
+      }
+
+      .card {
+        background: var(--card);
+        border-radius: 16px;
+        padding: 28px;
+        box-shadow: 0 12px 36px rgba(23, 32, 51, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: 30px;
+        line-height: 1.2;
+      }
+
+      .lead {
+        margin: 0 0 24px;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 16px;
+      }
+
+      .field.full {
+        grid-column: 1 / -1;
+      }
+
+      label {
+        font-size: 14px;
+        font-weight: 700;
+        color: #374151;
+      }
+
+      label[for="messageOutput"] {
+        color: #ea580c;
+        font-size: 20px;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        font: inherit;
+        background: #fff;
+        color: #374151;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 100px;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        font: inherit;
+        font-size: 20px;
+        background: #fafbfc;
+        color: #ea580c;
+        resize: vertical;
+        line-height: 1.5;
+      }
+
+      textarea[readonly] {
+        cursor: default;
+      }
+
+      pre {
+        width: 100%;
+        min-height: 120px;
+        margin: 0;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: #fafbfc;
+        color: #374151;
+        overflow: auto;
+        font: 14px/1.5 "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+          monospace;
+      }
+
+      .output {
+        margin-top: 24px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+      }
+
+      .note {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      @media (max-width: 720px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <section class="card">
+        <h1>Encouragement Message Demo</h1>
+        <p class="lead">
+          This demo loads message templates from JSON and builds the final
+          message with the helper. Edit the fields below to see the generated
+          message update live.
+        </p>
+
+        <div class="grid">
+          <div class="field" style="grid-column: 1 / -1; max-width: 50%">
+            <label for="nameInput">Name</label>
+            <input id="nameInput" type="text" />
+          </div>
+
+          <div class="field" style="grid-column: 1 / -1; max-width: 50%">
+            <label for="phoneInput">Phone</label>
+            <input id="phoneInput" type="tel" />
+          </div>
+
+          <div class="field" style="grid-column: 1 / -1; max-width: 50%">
+            <label for="eventSelect">Event</label>
+            <select id="eventSelect"></select>
+          </div>
+        </div>
+
+        <div class="output">
+          <div class="field">
+            <label for="messageOutput">Generated Message</label>
+            <textarea id="messageOutput" readonly></textarea>
+          </div>
+
+          <div class="field">
+            <label for="payloadOutput">Generated Payload</label>
+            <pre id="payloadOutput"></pre>
+          </div>
+
+          <div class="note">
+            Shared logic lives in <code>encouragement-message-helper.js</code>.
+            Demo-only wiring lives in <code>encouragement-demo.js</code>.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./encouragement-demo.js"></script>
+  </body>
+</html>
