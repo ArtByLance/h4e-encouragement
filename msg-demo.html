@@ -7,20 +7,20 @@
     
     A live demo/tool for previewing and testing encouragement messages.
     Loads message templates from JSON and builds final messages using
-    encouragement-message-helper.js.
+    msg-helper.js.
     
     USAGE:
       1. Serve this file from a local server (required for fetch):
          - npx serve .
          - python -m http.server 8000
          - VS Code Live Server extension
-      2. Open http://localhost:[port]/encouragement-demo.html
-      3. Edit Name, Phone, or Event to see the generated message update live.
+      2. Open http://localhost:[port]/msg-demo.html
+      3. Pick Language/Event and generate a message.
     
     FILES:
-      - encouragement-demo.html     (this file)
-      - encouragement-message-helper.js  (core helper library)
-      - encouragement-messages.json     (message template catalog)
+      - msg-demo.html     (this file)
+      - msg-helper.js     (core helper library)
+      - msg-data.json     (message template catalog)
     
     =============================================================================
   -->
@@ -90,6 +90,11 @@
         grid-column: 1 / -1;
       }
 
+      .field.compact {
+        grid-column: 1 / -1;
+        max-width: 50%;
+      }
+
       label {
         font-size: 14px;
         font-weight: 700;
@@ -102,7 +107,8 @@
       }
 
       input,
-      select {
+      select,
+      button {
         width: 100%;
         padding: 12px 14px;
         border: 1px solid var(--line);
@@ -110,6 +116,24 @@
         font: inherit;
         background: #fff;
         color: #374151;
+      }
+
+      button {
+        border-color: #ea580c;
+        background: #ea580c;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #c2410c;
+        border-color: #c2410c;
+      }
+
+      button:focus-visible {
+        outline: 3px solid rgba(234, 88, 12, 0.25);
+        outline-offset: 2px;
       }
 
       textarea {
@@ -160,6 +184,10 @@
         .grid {
           grid-template-columns: 1fr;
         }
+
+        .field.compact {
+          max-width: none;
+        }
       }
     </style>
   </head>
@@ -168,25 +196,34 @@
       <section class="card">
         <h1>Encouragement Message Demo</h1>
         <p class="lead">
-          This demo loads message templates from JSON and builds the final
-          message with the helper. Edit the fields below to see the generated
-          message update live.
+          This demo loads multilingual message templates from JSON and builds
+          the final message with the helper. Pick a language and event, then
+          generate a template variant.
         </p>
 
         <div class="grid">
-          <div class="field" style="grid-column: 1 / -1; max-width: 50%">
+          <div class="field compact">
             <label for="nameInput">Name</label>
             <input id="nameInput" type="text" />
           </div>
 
-          <div class="field" style="grid-column: 1 / -1; max-width: 50%">
+          <div class="field compact">
             <label for="phoneInput">Phone</label>
             <input id="phoneInput" type="tel" />
           </div>
 
-          <div class="field" style="grid-column: 1 / -1; max-width: 50%">
+          <div class="field compact">
+            <label for="localeSelect">Language</label>
+            <select id="localeSelect"></select>
+          </div>
+
+          <div class="field compact">
             <label for="eventSelect">Event</label>
             <select id="eventSelect"></select>
+          </div>
+
+          <div class="field compact">
+            <button id="generateButton" type="button">Generate</button>
           </div>
         </div>
 
@@ -202,13 +239,13 @@
           </div>
 
           <div class="note">
-            Shared logic lives in <code>encouragement-message-helper.js</code>.
-            Demo-only wiring lives in <code>encouragement-demo.js</code>.
+            Shared logic lives in <code>msg-helper.js</code>. Demo-only wiring
+            lives in <code>msg-demo.js</code>.
           </div>
         </div>
       </section>
     </main>
 
-    <script type="module" src="./encouragement-demo.js"></script>
+    <script type="module" src="./msg-demo.js"></script>
   </body>
 </html>

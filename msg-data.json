@@ -1,0 +1,246 @@
+{
+  "schemaVersion": "2.0.0",
+  "catalogId": "attendee-encouragement",
+  "catalogName": "Attendee Encouragement Messages",
+  "description": "Runtime catalog for event-driven attendee encouragement messages. Application logic should use stable event keys; labels and trigger descriptions are for admin UI, QA, and operational review.",
+  "defaultLocale": "en",
+  "supportedLocales": [
+    "en",
+    "es",
+    "ar"
+  ],
+  "locales": {
+    "en": {
+      "label": "English",
+      "direction": "ltr"
+    },
+    "es": {
+      "label": "Spanish",
+      "direction": "ltr"
+    },
+    "ar": {
+      "label": "Arabic",
+      "direction": "rtl"
+    }
+  },
+  "placeholders": {
+    "recipientName": "{{recipientName}}"
+  },
+  "defaults": {
+    "recipientName": "Mike",
+    "phoneNumber": "678-777-7100",
+    "eventKey": "inactive_3_days",
+    "locale": "en"
+  },
+  "messageOrder": [
+    "completed_day_1",
+    "completed_3_days",
+    "reached_50_percent",
+    "reached_75_percent",
+    "completed_course",
+    "completed_every_5_days",
+    "inactive_3_days",
+    "inactive_5_days",
+    "inactive_10_days"
+  ],
+  "messages": {
+    "completed_day_1": {
+      "label": "Completed Day 1",
+      "triggerDescription": "Completed Day 1",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "Welcome to the journey, {{recipientName}}! You're doing great. See you on the next day!",
+          "template2": "Nice start, {{recipientName}}! You completed day one and you're already building momentum. See you on the next day!",
+          "template3": "{{recipientName}}, day one is done! That's a strong first step. Keep showing up and we'll see you on the next day!"
+        },
+        "es": {
+          "template1": "Bienvenido al camino, {{recipientName}}! Vas muy bien. Nos vemos el proximo dia!",
+          "template2": "Buen comienzo, {{recipientName}}! Completaste el primer dia y ya estas tomando impulso. Nos vemos el proximo dia!",
+          "template3": "{{recipientName}}, ya terminaste el primer dia! Es un gran primer paso. Sigue presente y nos vemos el proximo dia!"
+        },
+        "ar": {
+          "template1": "اهلا بك في الرحلة يا {{recipientName}}! انت تتقدم بشكل رائع. نراك في اليوم التالي!",
+          "template2": "بداية موفقة يا {{recipientName}}! لقد اكملت اليوم الاول وبدأت تبني زخما حقيقيا. نراك في اليوم التالي!",
+          "template3": "{{recipientName}}، لقد انتهى اليوم الاول! هذه خطوة اولى قوية. استمر في الحضور ونراك في اليوم التالي!"
+        }
+      }
+    },
+    "completed_3_days": {
+      "label": "Completed 3 Days",
+      "triggerDescription": "Completed 3 Days",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, you're doing awesome! Three days in and you're building something strong. Keep it going today!",
+          "template2": "Great work, {{recipientName}}! Three days down and you're making real progress. Stay with it today!",
+          "template3": "{{recipientName}}, you've shown up for three days and that matters. Keep the streak moving today!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, lo estas haciendo excelente! Tres dias seguidos y estas construyendo algo solido. Sigue adelante hoy!",
+          "template2": "Muy buen trabajo, {{recipientName}}! Tres dias completados y estas logrando progreso real. Mantente constante hoy!",
+          "template3": "{{recipientName}}, te has presentado durante tres dias y eso importa. Mantengamos la racha hoy!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، اداؤك ممتاز! ثلاثة ايام وانت تبني شيئا قويا. واصل التقدم اليوم!",
+          "template2": "عمل رائع يا {{recipientName}}! اكملت ثلاثة ايام وتحقق تقدما حقيقيا. حافظ على الاستمرارية اليوم!",
+          "template3": "{{recipientName}}، لقد التزمت لثلاثة ايام وهذا مهم. لنحافظ على هذا التقدم اليوم!"
+        }
+      }
+    },
+    "reached_50_percent": {
+      "label": "Reached 50% Complete",
+      "triggerDescription": "Reached approximately 50% complete",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, you made it halfway! That's amazing. You're doing great, so let's keep moving forward today!",
+          "template2": "Halfway there, {{recipientName}}! You've already done a lot. Keep that progress going today!",
+          "template3": "{{recipientName}}, you're at the halfway point and that's a big deal. Let's keep moving forward from here!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, llegaste a la mitad! Eso es increible. Vas muy bien, sigamos avanzando hoy!",
+          "template2": "Ya vas a la mitad, {{recipientName}}! Has avanzado mucho. Mantengamos ese progreso hoy!",
+          "template3": "{{recipientName}}, estas en la mitad del camino y eso es muy importante. Sigamos avanzando desde aqui!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، وصلت الى منتصف الطريق! هذا انجاز رائع. انت تتقدم بشكل ممتاز، فلنواصل اليوم!",
+          "template2": "انت في منتصف الطريق يا {{recipientName}}! لقد انجزت الكثير. لنحافظ على هذا التقدم اليوم!",
+          "template3": "{{recipientName}}، وصلت الى نقطة المنتصف وهذا امر مهم جدا. لنكمل التقدم من هنا!"
+        }
+      }
+    },
+    "reached_75_percent": {
+      "label": "Reached 75% Complete",
+      "triggerDescription": "Reached approximately 75% complete",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, you're really crushing it! You've come this far, you're doing great, so let's finish strong!",
+          "template2": "You're 75% of the way there, {{recipientName}}! The finish line is getting close. Keep going strong!",
+          "template3": "{{recipientName}}, you've made it this far and you're doing excellent work. Let's carry it through and finish strong!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, estas avanzando con mucha fuerza! Ya llegaste muy lejos y vas muy bien, terminemos con energia!",
+          "template2": "Ya completaste el 75%, {{recipientName}}! La meta esta cerca. Sigue avanzando con fuerza!",
+          "template3": "{{recipientName}}, has llegado muy lejos y estas haciendo un gran trabajo. Sigamos hasta terminar con fuerza!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، انت تحقق تقدما قويا جدا! وصلت بعيدا واداؤك رائع، فلننهي بقوة!",
+          "template2": "اكملت 75% يا {{recipientName}}! خط النهاية اصبح قريبا. استمر بقوة!",
+          "template3": "{{recipientName}}، وصلت بعيدا وتقوم بعمل ممتاز. لنكمل الطريق وننهي بقوة!"
+        }
+      }
+    },
+    "completed_course": {
+      "label": "Completed Course",
+      "triggerDescription": "Completed the course",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, you did it! That's huge! You stayed with it and finished strong. You should be proud!",
+          "template2": "Congratulations, {{recipientName}}! You completed the course and followed through. That's something to be proud of!",
+          "template3": "{{recipientName}}, you finished the course! Your consistency paid off. Take a moment to celebrate this win!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, lo lograste! Es un gran paso! Te mantuviste constante y terminaste con fuerza. Debes sentir orgullo!",
+          "template2": "Felicidades, {{recipientName}}! Completaste el curso y cumpliste hasta el final. Es algo para celebrar!",
+          "template3": "{{recipientName}}, terminaste el curso! Tu constancia dio resultado. Toma un momento para celebrar este logro!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، لقد فعلتها! هذا انجاز كبير! استمريت حتى النهاية وانهيت بقوة. من حقك ان تفخر!",
+          "template2": "تهانينا يا {{recipientName}}! اكملت الدورة وواصلت حتى النهاية. هذا انجاز يستحق الاحتفال!",
+          "template3": "{{recipientName}}، لقد انهيت الدورة! استمراريتك اثمرت. خذ لحظة للاحتفال بهذا الانجاز!"
+        }
+      }
+    },
+    "completed_every_5_days": {
+      "label": "Completed Every 5 Days",
+      "triggerDescription": "Completed every 5 days with no overlap",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, you're doing great! You keep showing up and it's working. Let's keep going today!",
+          "template2": "Nice consistency, {{recipientName}}! Every time you show up, it adds up. Keep the progress moving today!",
+          "template3": "{{recipientName}}, your steady effort is making a difference. Stay with it and keep going today!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, vas muy bien! Sigues presentandote y eso esta funcionando. Sigamos adelante hoy!",
+          "template2": "Muy buena constancia, {{recipientName}}! Cada vez que te presentas, todo suma. Mantengamos el progreso hoy!",
+          "template3": "{{recipientName}}, tu esfuerzo constante esta marcando la diferencia. Mantente firme y sigue adelante hoy!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، انت تسير بشكل رائع! تستمر في الحضور وهذا يصنع فرقا. لنواصل اليوم!",
+          "template2": "استمرارية رائعة يا {{recipientName}}! كل مرة تلتزم فيها تضيف الى تقدمك. لنحافظ على التقدم اليوم!",
+          "template3": "{{recipientName}}، مجهودك المستمر يصنع فرقا. اثبت وواصل التقدم اليوم!"
+        }
+      }
+    },
+    "inactive_3_days": {
+      "label": "Inactive 3 Days",
+      "triggerDescription": "Inactive for 3 days",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, it's been a few days. Time to jump back in and get moving again. You've got this!",
+          "template2": "{{recipientName}}, a few days have passed, but you can restart right now. Jump back in with one step today!",
+          "template3": "Let's get moving again, {{recipientName}}. It only takes one day to start building momentum again!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, han pasado unos dias. Es buen momento para retomar y volver a avanzar. Tu puedes!",
+          "template2": "{{recipientName}}, pasaron unos dias, pero puedes recomenzar ahora. Retoma con un paso hoy!",
+          "template3": "Volvamos a avanzar, {{recipientName}}. Solo hace falta un dia para empezar a recuperar impulso!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، مرت بضعة ايام. هذا وقت مناسب للعودة والتحرك من جديد. انت قادر!",
+          "template2": "{{recipientName}}، مرت بضعة ايام، لكن يمكنك البدء من جديد الان. ارجع بخطوة واحدة اليوم!",
+          "template3": "لنعد للتحرك يا {{recipientName}}. يوم واحد يكفي لتبدأ في استعادة الزخم!"
+        }
+      }
+    },
+    "inactive_5_days": {
+      "label": "Inactive 5 Days",
+      "triggerDescription": "Inactive for 5 days",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, it's been a while. Let's get back to it. Just do one day and you're back on track!",
+          "template2": "{{recipientName}}, you can still pick this back up. Start with one day and get yourself moving again!",
+          "template3": "It's time for a fresh start, {{recipientName}}. Complete one day today and you'll be back in motion!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, ya paso un poco de tiempo. Retomemos. Haz solo un dia y volveras al camino!",
+          "template2": "{{recipientName}}, todavia puedes retomarlo. Empieza con un dia y vuelve a moverte!",
+          "template3": "Es momento de un nuevo comienzo, {{recipientName}}. Completa un dia hoy y volveras a avanzar!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، مر بعض الوقت. لنعد من جديد. اكمل يوما واحدا وستعود الى المسار!",
+          "template2": "{{recipientName}}، ما زال بامكانك العودة. ابدأ بيوم واحد وتحرك من جديد!",
+          "template3": "حان وقت بداية جديدة يا {{recipientName}}. اكمل يوما واحدا اليوم وستعود للتقدم!"
+        }
+      }
+    },
+    "inactive_10_days": {
+      "label": "Inactive 10 Days",
+      "triggerDescription": "Inactive for 10 days",
+      "active": true,
+      "templates": {
+        "en": {
+          "template1": "{{recipientName}}, it's time to get going again! Jump back in with just one day. You can do this!",
+          "template2": "{{recipientName}}, don't worry about the gap. Just come back for one day and restart your progress!",
+          "template3": "You can start again today, {{recipientName}}. One day is all it takes to get back on track!"
+        },
+        "es": {
+          "template1": "{{recipientName}}, es momento de volver a empezar! Retoma con solo un dia. Tu puedes hacerlo!",
+          "template2": "{{recipientName}}, no te preocupes por la pausa. Vuelve por un dia y reinicia tu progreso!",
+          "template3": "Puedes empezar de nuevo hoy, {{recipientName}}. Un dia es suficiente para volver al camino!"
+        },
+        "ar": {
+          "template1": "{{recipientName}}، حان وقت العودة من جديد! ابدأ بيوم واحد فقط. انت تستطيع!",
+          "template2": "{{recipientName}}، لا تقلق من فترة التوقف. ارجع ليوم واحد واعد تشغيل تقدمك!",
+          "template3": "يمكنك البدء من جديد اليوم يا {{recipientName}}. يوم واحد يكفي للعودة الى المسار!"
+        }
+      }
+    }
+  }
+}
