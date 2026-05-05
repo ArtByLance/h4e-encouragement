@@ -7,8 +7,8 @@ Production-ready message catalog and helper utilities for generating attendee en
 - `msg-data.json` is the runtime message catalog consumed by applications and demos.
 - `msg-helper.js` is the app-facing helper for resolving event, locale, template, and recipient data into a final message payload.
 - `msg-demo.html` and `msg-demo.js` provide a browser preview harness for product, QA, and integration review.
-- `msg-templates.xlsx` is the original single-sheet English review workbook.
-- `msg-templates-prototype.xlsx` is the multilingual workbook shape consumed by the import script.
+- `worksheets/msg-templates-04-may-2026.xlsx` is the current approved multilingual workbook consumed by the import script.
+- `worksheets/old/` contains archived source and prototype workbook versions.
 - `scripts/create-prototype-multilingual-workbook.py` can build a multilingual workbook from the single-sheet source.
 - `scripts/import-encouragement-workbook.py` converts the workbook into `msg-data.json`.
 - `tests/` contains helper and import coverage.
@@ -115,18 +115,18 @@ Supporting helpers:
 
 Preferred content workflow:
 
-1. Edit approved multilingual copy in `msg-templates-prototype.xlsx`.
+1. Edit approved multilingual copy in `worksheets/msg-templates-04-may-2026.xlsx`.
 2. Run the import script to regenerate `msg-data.json`.
 3. Review the generated catalog diff.
 4. Run tests.
 5. Open the demo from a local server and smoke-test core events/locales.
 
-Current workbook note: English rows are marked `approved`; Spanish and Arabic rows are marked `draft`. Use `--include-unapproved` when regenerating the current full multilingual catalog, or mark localized rows `approved` before running the stricter production import.
+Current workbook note: English, Spanish, and Arabic rows are marked `approved`, so the stricter production import can run without `--include-unapproved`.
 
 Useful commands:
 
 ```sh
-python3 scripts/import-encouragement-workbook.py msg-templates-prototype.xlsx --include-unapproved -o msg-data.json
+python3 scripts/import-encouragement-workbook.py worksheets/msg-templates-04-may-2026.xlsx -o msg-data.json
 node --test tests/msg-helper.test.mjs
 python3 -m unittest tests/test_import_encouragement_workbook.py
 python3 -m http.server 8000

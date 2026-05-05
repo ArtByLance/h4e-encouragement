@@ -50,19 +50,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "Welcome to the journey, {{recipientName}}! You're doing great. See you on the next day!",
-          "template2": "Nice start, {{recipientName}}! You completed day one and you're already building momentum. See you on the next day!",
-          "template3": "{{recipientName}}, day one is done! That's a strong first step. Keep showing up and we'll see you on the next day!"
+          "template1": "Welcome to this new journey, {{recipientName}}! Your Heavenly Father is smiling over you as you make your best effort to walk with Him.",
+          "template2": "{{recipientName}}, welcome to this new path of fellowship with Him! Your Heavenly Father is smiling over your first step.",
+          "template3": "{{recipientName}}, day one is complete! Your Heavenly Father saw it, every moment. He’s glad you came."
         },
         "es": {
-          "template1": "Bienvenido al camino, {{recipientName}}! Vas muy bien. Nos vemos el proximo dia!",
-          "template2": "Buen comienzo, {{recipientName}}! Completaste el primer dia y ya estas tomando impulso. Nos vemos el proximo dia!",
-          "template3": "{{recipientName}}, ya terminaste el primer dia! Es un gran primer paso. Sigue presente y nos vemos el proximo dia!"
+          "template1": "¡Bienvenido a esta nueva jornada, {{recipientName}}! Tu Padre Celestial sonríe al verte mientras haces tu mejor esfuerzo por caminar con Él.",
+          "template2": "{{recipientName}}, ¡bienvenido a este nuevo camino de comunión con Él! Tu Padre Celestial sonríe al ver tu primer paso.",
+          "template3": "{{recipientName}}, ¡el día uno está completo! Tu Padre Celestial lo vio, cada momento. Se alegra de que hayas venido."
         },
         "ar": {
-          "template1": "اهلا بك في الرحلة يا {{recipientName}}! انت تتقدم بشكل رائع. نراك في اليوم التالي!",
-          "template2": "بداية موفقة يا {{recipientName}}! لقد اكملت اليوم الاول وبدأت تبني زخما حقيقيا. نراك في اليوم التالي!",
-          "template3": "{{recipientName}}، لقد انتهى اليوم الاول! هذه خطوة اولى قوية. استمر في الحضور ونراك في اليوم التالي!"
+          "template1": "أهلا بك في هذه الرحلة الجديدة يا {{recipientName}}! أبوك السماوي يبتسم فرحا بك وأنت تبذل أفضل جهدك للسير معه.",
+          "template2": "{{recipientName}}، أهلا بك في هذا الطريق الجديد للشركة معه! أبوك السماوي يبتسم فرحا بخطوتك الأولى.",
+          "template3": "{{recipientName}}، لقد اكتمل اليوم الأول! أبوك السماوي رآه، كل لحظة. وهو مسرور لأنك أتيت."
         }
       }
     },
@@ -72,19 +72,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, you're doing awesome! Three days in and you're building something strong. Keep it going today!",
-          "template2": "Great work, {{recipientName}}! Three days down and you're making real progress. Stay with it today!",
-          "template3": "{{recipientName}}, you've shown up for three days and that matters. Keep the streak moving today!"
+          "template1": "{{recipientName}}, three days strong! Your Father loves this kind of faithfulness. You’re building a new healthy habit on this path with Him!",
+          "template2": "{{recipientName}}, you’ve stayed with this journey for three days! Your Heavenly Father sees your steady endeavor, and He is forming something amazing in you.",
+          "template3": "{{recipientName}}, three days in! Your Father sees it all. He’s pleased with your faithfulness."
         },
         "es": {
-          "template1": "{{recipientName}}, lo estas haciendo excelente! Tres dias seguidos y estas construyendo algo solido. Sigue adelante hoy!",
-          "template2": "Muy buen trabajo, {{recipientName}}! Tres dias completados y estas logrando progreso real. Mantente constante hoy!",
-          "template3": "{{recipientName}}, te has presentado durante tres dias y eso importa. Mantengamos la racha hoy!"
+          "template1": "{{recipientName}}, ¡tres días con fuerza! Tu Padre ama este tipo de fidelidad. ¡Estás formando un nuevo hábito saludable en este camino con Él!",
+          "template2": "{{recipientName}}, ¡has permanecido en esta jornada por tres días! Tu Padre Celestial ve tu empeño constante, y Él está formando algo asombroso en ti.",
+          "template3": "{{recipientName}}, ¡tres días ya! Tu Padre lo ve todo. Él se complace en tu fidelidad."
         },
         "ar": {
-          "template1": "{{recipientName}}، اداؤك ممتاز! ثلاثة ايام وانت تبني شيئا قويا. واصل التقدم اليوم!",
-          "template2": "عمل رائع يا {{recipientName}}! اكملت ثلاثة ايام وتحقق تقدما حقيقيا. حافظ على الاستمرارية اليوم!",
-          "template3": "{{recipientName}}، لقد التزمت لثلاثة ايام وهذا مهم. لنحافظ على هذا التقدم اليوم!"
+          "template1": "{{recipientName}}، ثلاثة أيام بقوة! أبوك يحب هذا النوع من الأمانة. أنت تبني عادة صحية جديدة في هذا الطريق معه!",
+          "template2": "{{recipientName}}، لقد بقيت في هذه الرحلة ثلاثة أيام! أبوك السماوي يرى سعيك الثابت، وهو يشكل فيك شيئا مذهلا.",
+          "template3": "{{recipientName}}، ثلاثة أيام حتى الآن! أبوك يرى كل شيء. وهو مسرور بأمانتك."
         }
       }
     },
@@ -94,19 +94,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, you made it halfway! That's amazing. You're doing great, so let's keep moving forward today!",
-          "template2": "Halfway there, {{recipientName}}! You've already done a lot. Keep that progress going today!",
-          "template3": "{{recipientName}}, you're at the halfway point and that's a big deal. Let's keep moving forward from here!"
+          "template1": "{{recipientName}}, you’re halfway! Your Father is glad you didn’t stop. Jesus is pleased with your progress.",
+          "template2": "Halfway there, {{recipientName}}! Your Father loves this steady forward step. Keep walking with Him.",
+          "template3": "{{recipientName}}, you’ve come this far! Your Father saw each step. He’s glad you stayed on this path."
         },
         "es": {
-          "template1": "{{recipientName}}, llegaste a la mitad! Eso es increible. Vas muy bien, sigamos avanzando hoy!",
-          "template2": "Ya vas a la mitad, {{recipientName}}! Has avanzado mucho. Mantengamos ese progreso hoy!",
-          "template3": "{{recipientName}}, estas en la mitad del camino y eso es muy importante. Sigamos avanzando desde aqui!"
+          "template1": "{{recipientName}}, ¡vas a la mitad! Tu Padre se alegra de que no te hayas detenido. Jesús está complacido con tu progreso.",
+          "template2": "¡A mitad del camino, {{recipientName}}! Tu Padre ama este paso firme hacia adelante. Sigue caminando con Él.",
+          "template3": "{{recipientName}}, ¡has llegado hasta aquí! Tu Padre vio cada paso. Se alegra de que hayas permanecido en este camino."
         },
         "ar": {
-          "template1": "{{recipientName}}، وصلت الى منتصف الطريق! هذا انجاز رائع. انت تتقدم بشكل ممتاز، فلنواصل اليوم!",
-          "template2": "انت في منتصف الطريق يا {{recipientName}}! لقد انجزت الكثير. لنحافظ على هذا التقدم اليوم!",
-          "template3": "{{recipientName}}، وصلت الى نقطة المنتصف وهذا امر مهم جدا. لنكمل التقدم من هنا!"
+          "template1": "{{recipientName}}، لقد وصلت إلى منتصف الطريق! أبوك مسرور لأنك لم تتوقف. يسوع مسرور بتقدمك.",
+          "template2": "أنت في منتصف الطريق يا {{recipientName}}! أبوك يحب هذه الخطوة الثابتة إلى الأمام. استمر في السير معه.",
+          "template3": "{{recipientName}}، لقد وصلت إلى هذا الحد! أبوك رأى كل خطوة. وهو مسرور لأنك بقيت على هذا الطريق."
         }
       }
     },
@@ -116,19 +116,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, you're really crushing it! You've come this far, you're doing great, so let's finish strong!",
-          "template2": "You're 75% of the way there, {{recipientName}}! The finish line is getting close. Keep going strong!",
-          "template3": "{{recipientName}}, you've made it this far and you're doing excellent work. Let's carry it through and finish strong!"
+          "template1": "{{recipientName}}, 75% done! Your Father loves your heart to meet with Him. Jesus delights in your steady focus on seeking His will first.",
+          "template2": "{{recipientName}}, you’re almost there! Your Father loves your persistence on this path. You’re close, keep going.",
+          "template3": "{{recipientName}}, you’ve come a long way in this endeavor! Your Father saw it all. He’s proud of your faithfulness."
         },
         "es": {
-          "template1": "{{recipientName}}, estas avanzando con mucha fuerza! Ya llegaste muy lejos y vas muy bien, terminemos con energia!",
-          "template2": "Ya completaste el 75%, {{recipientName}}! La meta esta cerca. Sigue avanzando con fuerza!",
-          "template3": "{{recipientName}}, has llegado muy lejos y estas haciendo un gran trabajo. Sigamos hasta terminar con fuerza!"
+          "template1": "{{recipientName}}, ¡75% completado! Tu Padre ama tu deseo de encontrarte con Él. Jesús se deleita en tu enfoque constante en buscar primero Su voluntad.",
+          "template2": "{{recipientName}}, ¡ya casi llegas! Tu Padre ama tu persistencia en este camino. Estás cerca, sigue adelante.",
+          "template3": "{{recipientName}}, ¡has avanzado mucho en este empeño! Tu Padre lo vio todo. Está orgulloso de tu fidelidad."
         },
         "ar": {
-          "template1": "{{recipientName}}، انت تحقق تقدما قويا جدا! وصلت بعيدا واداؤك رائع، فلننهي بقوة!",
-          "template2": "اكملت 75% يا {{recipientName}}! خط النهاية اصبح قريبا. استمر بقوة!",
-          "template3": "{{recipientName}}، وصلت بعيدا وتقوم بعمل ممتاز. لنكمل الطريق وننهي بقوة!"
+          "template1": "{{recipientName}}، أنجزت 75%! أبوك يحب قلبك الذي يريد أن يلتقي به. ويسوع يفرح بتركيزك الثابت على طلب مشيئته أولا.",
+          "template2": "{{recipientName}}، أنت قريب جدا! أبوك يحب مثابرتك على هذا الطريق. أنت قريب، واصل التقدم.",
+          "template3": "{{recipientName}}، لقد قطعت شوطا طويلا في هذا المسعى! أبوك رأى كل شيء. وهو فخور بأمانتك."
         }
       }
     },
@@ -138,19 +138,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, you did it! That's huge! You stayed with it and finished strong. You should be proud!",
-          "template2": "Congratulations, {{recipientName}}! You completed the course and followed through. That's something to be proud of!",
-          "template3": "{{recipientName}}, you finished the course! Your consistency paid off. Take a moment to celebrate this win!"
+          "template1": "Well done, {{recipientName}}! You have completed this journey. Your Heavenly Father is so proud of your faithfulness along the way. Keep applying what the Holy Spirit has been forming in you.",
+          "template2": "{{recipientName}}, you did it! Your Father loves what you’ve done here. You stayed with Him all the way.",
+          "template3": "{{recipientName}}, this path is complete! Your Father saw every step. He’s glad you walked this through with Him."
         },
         "es": {
-          "template1": "{{recipientName}}, lo lograste! Es un gran paso! Te mantuviste constante y terminaste con fuerza. Debes sentir orgullo!",
-          "template2": "Felicidades, {{recipientName}}! Completaste el curso y cumpliste hasta el final. Es algo para celebrar!",
-          "template3": "{{recipientName}}, terminaste el curso! Tu constancia dio resultado. Toma un momento para celebrar este logro!"
+          "template1": "¡Bien hecho, {{recipientName}}! Has completado esta jornada. Tu Padre Celestial está muy orgulloso de tu fidelidad en el camino. Sigue aplicando lo que el Espíritu Santo ha estado formando en ti.",
+          "template2": "{{recipientName}}, ¡lo lograste! Tu Padre ama lo que has hecho aquí. Permaneciste con Él hasta el final.",
+          "template3": "{{recipientName}}, ¡este camino está completo! Tu Padre vio cada paso. Se alegra de que lo hayas recorrido con Él."
         },
         "ar": {
-          "template1": "{{recipientName}}، لقد فعلتها! هذا انجاز كبير! استمريت حتى النهاية وانهيت بقوة. من حقك ان تفخر!",
-          "template2": "تهانينا يا {{recipientName}}! اكملت الدورة وواصلت حتى النهاية. هذا انجاز يستحق الاحتفال!",
-          "template3": "{{recipientName}}، لقد انهيت الدورة! استمراريتك اثمرت. خذ لحظة للاحتفال بهذا الانجاز!"
+          "template1": "أحسنت يا {{recipientName}}! لقد أكملت هذه الرحلة. أبوك السماوي فخور جدا بأمانتك على طول الطريق. استمر في تطبيق ما كان الروح القدس يشكله فيك.",
+          "template2": "{{recipientName}}، لقد فعلتها! أبوك يحب ما فعلته هنا. لقد بقيت معه حتى النهاية.",
+          "template3": "{{recipientName}}، هذا الطريق قد اكتمل! أبوك رأى كل خطوة. وهو مسرور لأنك سرت معه حتى النهاية."
         }
       }
     },
@@ -160,19 +160,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, you're doing great! You keep showing up and it's working. Let's keep going today!",
-          "template2": "Nice consistency, {{recipientName}}! Every time you show up, it adds up. Keep the progress moving today!",
-          "template3": "{{recipientName}}, your steady effort is making a difference. Stay with it and keep going today!"
+          "template1": "{{recipientName}}, you’re doing great! You keep showing up on this journey, and your Heavenly Father sees your steady faithfulness.",
+          "template2": "Nice consistency, {{recipientName}}! Every step on this path matters. Keep walking with Him today.",
+          "template3": "{{recipientName}}, your steady endeavor is making a difference! Stay with it and keep moving forward on this path today."
         },
         "es": {
-          "template1": "{{recipientName}}, vas muy bien! Sigues presentandote y eso esta funcionando. Sigamos adelante hoy!",
-          "template2": "Muy buena constancia, {{recipientName}}! Cada vez que te presentas, todo suma. Mantengamos el progreso hoy!",
-          "template3": "{{recipientName}}, tu esfuerzo constante esta marcando la diferencia. Mantente firme y sigue adelante hoy!"
+          "template1": "{{recipientName}}, ¡vas muy bien! Sigues presentándote en esta jornada, y tu Padre Celestial ve tu fidelidad constante.",
+          "template2": "¡Muy buena constancia, {{recipientName}}! Cada paso en este camino importa. Sigue caminando con Él hoy.",
+          "template3": "{{recipientName}}, ¡tu empeño constante está marcando la diferencia! Mantente firme y sigue avanzando en este camino hoy."
         },
         "ar": {
-          "template1": "{{recipientName}}، انت تسير بشكل رائع! تستمر في الحضور وهذا يصنع فرقا. لنواصل اليوم!",
-          "template2": "استمرارية رائعة يا {{recipientName}}! كل مرة تلتزم فيها تضيف الى تقدمك. لنحافظ على التقدم اليوم!",
-          "template3": "{{recipientName}}، مجهودك المستمر يصنع فرقا. اثبت وواصل التقدم اليوم!"
+          "template1": "{{recipientName}}، أنت تسير بشكل رائع! أنت تستمر في الحضور في هذه الرحلة، وأبوك السماوي يرى أمانتك الثابتة.",
+          "template2": "استمرارية جميلة يا {{recipientName}}! كل خطوة في هذا الطريق لها قيمة. واصل السير معه اليوم.",
+          "template3": "{{recipientName}}، سعيك الثابت يصنع فرقا! اثبت وواصل التقدم في هذا الطريق اليوم."
         }
       }
     },
@@ -182,19 +182,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, it's been a few days. Time to jump back in and get moving again. You've got this!",
-          "template2": "{{recipientName}}, a few days have passed, but you can restart right now. Jump back in with one step today!",
-          "template3": "Let's get moving again, {{recipientName}}. It only takes one day to start building momentum again!"
+          "template1": "{{recipientName}}, it’s been a few days. Your Heavenly Father is still with you on this journey. Take one step back onto the path today.",
+          "template2": "{{recipientName}}, a few days have passed, but this journey is still open to you. Step back in today and keep walking with Him.",
+          "template3": "Let’s get moving again, {{recipientName}}. One faithful step today can help you return to the path."
         },
         "es": {
-          "template1": "{{recipientName}}, han pasado unos dias. Es buen momento para retomar y volver a avanzar. Tu puedes!",
-          "template2": "{{recipientName}}, pasaron unos dias, pero puedes recomenzar ahora. Retoma con un paso hoy!",
-          "template3": "Volvamos a avanzar, {{recipientName}}. Solo hace falta un dia para empezar a recuperar impulso!"
+          "template1": "{{recipientName}}, han pasado unos días. Tu Padre Celestial sigue contigo en esta jornada. Da hoy un paso de regreso al camino.",
+          "template2": "{{recipientName}}, han pasado unos días, pero esta jornada sigue abierta para ti. Vuelve a entrar hoy y sigue caminando con Él.",
+          "template3": "Volvamos a avanzar, {{recipientName}}. Un paso fiel hoy puede ayudarte a regresar al camino."
         },
         "ar": {
-          "template1": "{{recipientName}}، مرت بضعة ايام. هذا وقت مناسب للعودة والتحرك من جديد. انت قادر!",
-          "template2": "{{recipientName}}، مرت بضعة ايام، لكن يمكنك البدء من جديد الان. ارجع بخطوة واحدة اليوم!",
-          "template3": "لنعد للتحرك يا {{recipientName}}. يوم واحد يكفي لتبدأ في استعادة الزخم!"
+          "template1": "{{recipientName}}، مرت بضعة أيام. أبوك السماوي ما زال معك في هذه الرحلة. خذ خطوة واحدة للعودة إلى الطريق اليوم.",
+          "template2": "{{recipientName}}، مرت بضعة أيام، لكن هذه الرحلة ما زالت مفتوحة لك. عد اليوم واستمر في السير معه.",
+          "template3": "لنعد إلى الحركة يا {{recipientName}}. خطوة أمينة واحدة اليوم يمكن أن تساعدك على العودة إلى الطريق."
         }
       }
     },
@@ -204,19 +204,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, it's been a while. Let's get back to it. Just do one day and you're back on track!",
-          "template2": "{{recipientName}}, you can still pick this back up. Start with one day and get yourself moving again!",
-          "template3": "It's time for a fresh start, {{recipientName}}. Complete one day today and you'll be back in motion!"
+          "template1": "{{recipientName}}, it’s been a little while. Your Heavenly Father has not stepped away from you. Come back to the journey with one step today.",
+          "template2": "{{recipientName}}, you can still return to this path. Start again today with one simple step toward Him.",
+          "template3": "This can be a fresh start, {{recipientName}}. Rejoin the journey today and let one step restart your momentum."
         },
         "es": {
-          "template1": "{{recipientName}}, ya paso un poco de tiempo. Retomemos. Haz solo un dia y volveras al camino!",
-          "template2": "{{recipientName}}, todavia puedes retomarlo. Empieza con un dia y vuelve a moverte!",
-          "template3": "Es momento de un nuevo comienzo, {{recipientName}}. Completa un dia hoy y volveras a avanzar!"
+          "template1": "{{recipientName}}, ha pasado un poco de tiempo. Tu Padre Celestial no se ha alejado de ti. Vuelve a la jornada con un paso hoy.",
+          "template2": "{{recipientName}}, aún puedes regresar a este camino. Empieza de nuevo hoy con un paso sencillo hacia Él.",
+          "template3": "Este puede ser un nuevo comienzo, {{recipientName}}. Retoma la jornada hoy y deja que un paso reinicie tu impulso."
         },
         "ar": {
-          "template1": "{{recipientName}}، مر بعض الوقت. لنعد من جديد. اكمل يوما واحدا وستعود الى المسار!",
-          "template2": "{{recipientName}}، ما زال بامكانك العودة. ابدأ بيوم واحد وتحرك من جديد!",
-          "template3": "حان وقت بداية جديدة يا {{recipientName}}. اكمل يوما واحدا اليوم وستعود للتقدم!"
+          "template1": "{{recipientName}}، مر بعض الوقت. أبوك السماوي لم يبتعد عنك. عد إلى الرحلة بخطوة واحدة اليوم.",
+          "template2": "{{recipientName}}، ما زال بإمكانك العودة إلى هذا الطريق. ابدأ اليوم بخطوة بسيطة نحوه.",
+          "template3": "يمكن أن تكون هذه بداية جديدة يا {{recipientName}}. عد إلى الرحلة اليوم ودع خطوة واحدة تعيد زخمك."
         }
       }
     },
@@ -226,19 +226,19 @@
       "active": true,
       "templates": {
         "en": {
-          "template1": "{{recipientName}}, it's time to get going again! Jump back in with just one day. You can do this!",
-          "template2": "{{recipientName}}, don't worry about the gap. Just come back for one day and restart your progress!",
-          "template3": "You can start again today, {{recipientName}}. One day is all it takes to get back on track!"
+          "template1": "{{recipientName}}, it’s time to begin again. This journey is still here for you, and your Heavenly Father is ready to walk with you today.",
+          "template2": "{{recipientName}}, don’t worry about the gap. Come back to the path today with one faithful step.",
+          "template3": "You can start again today, {{recipientName}}. One step is enough to return to this journey."
         },
         "es": {
-          "template1": "{{recipientName}}, es momento de volver a empezar! Retoma con solo un dia. Tu puedes hacerlo!",
-          "template2": "{{recipientName}}, no te preocupes por la pausa. Vuelve por un dia y reinicia tu progreso!",
-          "template3": "Puedes empezar de nuevo hoy, {{recipientName}}. Un dia es suficiente para volver al camino!"
+          "template1": "{{recipientName}}, es tiempo de comenzar de nuevo. Esta jornada sigue aquí para ti, y tu Padre Celestial está listo para caminar contigo hoy.",
+          "template2": "{{recipientName}}, no te preocupes por la pausa. Vuelve al camino hoy con un paso fiel.",
+          "template3": "Puedes empezar de nuevo hoy, {{recipientName}}. Un paso basta para regresar a esta jornada."
         },
         "ar": {
-          "template1": "{{recipientName}}، حان وقت العودة من جديد! ابدأ بيوم واحد فقط. انت تستطيع!",
-          "template2": "{{recipientName}}، لا تقلق من فترة التوقف. ارجع ليوم واحد واعد تشغيل تقدمك!",
-          "template3": "يمكنك البدء من جديد اليوم يا {{recipientName}}. يوم واحد يكفي للعودة الى المسار!"
+          "template1": "{{recipientName}}، حان وقت البدء من جديد. هذه الرحلة ما زالت هنا من أجلك، وأبوك السماوي مستعد أن يسير معك اليوم.",
+          "template2": "{{recipientName}}، لا تقلق بشأن فترة الانقطاع. عد إلى الطريق اليوم بخطوة أمينة.",
+          "template3": "يمكنك البدء من جديد اليوم يا {{recipientName}}. خطوة واحدة تكفي للعودة إلى هذه الرحلة."
         }
       }
     }
